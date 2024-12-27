@@ -1,4 +1,4 @@
-package com.multithreading.concept.threadinitial.util;
+package com.multithreading.util;
 
 import static java.text.MessageFormat.format;
 

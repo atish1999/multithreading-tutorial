@@ -1,7 +1,7 @@
 package com.multithreading.concept.threadinitial.monitorlock.basicmonitorLock;
 
-import static com.multithreading.concept.threadinitial.util.ThreadUtil.sleep;
-import static com.multithreading.concept.threadinitial.util.ThreadUtil.threadName;
+import static com.multithreading.util.ThreadUtil.sleep;
+import static com.multithreading.util.ThreadUtil.threadName;
 import static java.text.MessageFormat.format;
 
 public class MonitorLock {

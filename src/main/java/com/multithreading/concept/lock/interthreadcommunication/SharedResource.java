@@ -1,9 +1,9 @@
 package com.multithreading.concept.lock.interthreadcommunication;
 
-import static com.multithreading.concept.threadinitial.util.ThreadUtil.threadName;
+import static com.multithreading.util.ThreadUtil.threadName;
 
-import com.multithreading.concept.threadinitial.util.PrinterUtil;
-import com.multithreading.concept.threadinitial.util.ThreadUtil;
+import com.multithreading.util.PrinterUtil;
+import com.multithreading.util.ThreadUtil;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 

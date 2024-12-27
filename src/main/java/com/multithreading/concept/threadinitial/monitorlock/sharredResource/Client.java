@@ -1,6 +1,6 @@
 package com.multithreading.concept.threadinitial.monitorlock.sharredResource;
 
-import com.multithreading.concept.threadinitial.util.PrinterUtil;
+import com.multithreading.util.PrinterUtil;
 
 public class Client {
   public static void main(String[] args) {

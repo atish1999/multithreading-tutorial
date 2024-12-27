@@ -1,7 +1,7 @@
 package com.multithreading.concept.threadinitial.monitorlock.ProducerConsumerQueue;
 
-import static com.multithreading.concept.threadinitial.util.ThreadUtil.sleep;
-import static com.multithreading.concept.threadinitial.util.ThreadUtil.threadName;
+import static com.multithreading.util.ThreadUtil.sleep;
+import static com.multithreading.util.ThreadUtil.threadName;
 
 import java.util.Queue;
 

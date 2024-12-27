@@ -1,10 +1,9 @@
-package com.multithreading.concept.threadinitial.monitorlock.sharredResource;
+package com.multithreading.concept.threadinitial.monitorlock.sharedResource;
 
-public class ProducerTask implements Runnable {
-
+public class ConsumerTask implements Runnable {
   final SharedResource sharedResource;
 
-  public ProducerTask(SharedResource sharedResource) {
+  public ConsumerTask(final SharedResource sharedResource) {
     this.sharedResource = sharedResource;
   }
 
@@ -13,7 +12,7 @@ public class ProducerTask implements Runnable {
 
     try {
       for (int i = 0; i < 10; ++i) {
-        sharedResource.produce();
+        sharedResource.consume();
       }
     } catch (Exception exception) {
 

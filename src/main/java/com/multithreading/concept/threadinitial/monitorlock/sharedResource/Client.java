@@ -1,4 +1,4 @@
-package com.multithreading.concept.threadinitial.monitorlock.sharredResource;
+package com.multithreading.concept.threadinitial.monitorlock.sharedResource;
 
 import com.multithreading.util.PrinterUtil;
 

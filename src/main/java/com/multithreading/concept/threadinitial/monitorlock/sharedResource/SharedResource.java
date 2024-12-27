@@ -1,4 +1,4 @@
-package com.multithreading.concept.threadinitial.monitorlock.sharredResource;
+package com.multithreading.concept.threadinitial.monitorlock.sharedResource;
 
 import static com.multithreading.util.ThreadUtil.threadName;
 

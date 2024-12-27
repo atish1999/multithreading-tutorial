@@ -16,6 +16,5 @@ public class Client {
 
     consumer.start();
     producer.start();
-
   }
 }
